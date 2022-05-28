@@ -9,11 +9,12 @@
 .header {
     background: #FFFFFF;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .webstudio{
     text-decoration: none;
     color: #212121;
-    margin-right: auto;
 }
 .web {
     color: #2196F3;}
@@ -35,6 +36,9 @@ color:#212121;
 .menu .item :hover{
     color: #2196F3;}
 .menu .item :focus {color: #2196F3;}
+.item {
+    justify-content: center;
+}
 .contact {
     font-family: 'Roboto';
 font-style: normal;
