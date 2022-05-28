@@ -7,14 +7,19 @@
   box-sizing: border-box;
 }
 .header {
-    background: #FFFFFF;}
+    background: #FFFFFF;
+    display: flex;
+}
 .webstudio{
     text-decoration: none;
-    color: #212121;}
+    color: #212121;
+    margin-right: auto;
+}
 .web {
     color: #2196F3;}
 /* nav*/
 .menu {
+display: flex;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
