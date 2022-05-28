@@ -52,6 +52,9 @@ text-decoration: none;
 
 body { font-family: "Roboto", "Raleway", sans-serif;
 color: #212121;}
+.buttons {
+    margin-bottom: 40px;
+}
 .button {
     background-color: #F5F4FA;
     color: #212121;
@@ -125,14 +128,23 @@ border-radius: 0px;
             color: #757575;
         }
 .figures {
-list-style-type: none;}
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+margin-left: -10px;
+margin-top: -10px;
+}
 .figure { list-style: none;
 width: 370px;
 height: 404px;
 left: 215px;
 top: 262px;
 background: #FFFFFF;
-border: 1px solid #EEEEEE;}
+border: 1px solid #EEEEEE;
+margin-left: 10px;
+margin-top: 10px;
+flex-basis: calc(100% / 3 - 10px);
+}
 .figure > h3 {
     font-family: 'Roboto';
 font-style: normal;
