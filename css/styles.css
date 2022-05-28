@@ -1,6 +1,11 @@
 :root {
     --black: #000000;
   }
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .header {
     background: #FFFFFF;}
 .webstudio{
