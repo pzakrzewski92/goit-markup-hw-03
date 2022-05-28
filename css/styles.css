@@ -10,7 +10,7 @@
     background: #FFFFFF;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .webstudio{
     text-decoration: none;
@@ -38,6 +38,7 @@ color:#212121;
 .menu .item :focus {color: #2196F3;}
 .item {
     justify-content: center;
+    padding: 20px;
 }
 .contact {
     font-family: 'Roboto';
@@ -48,6 +49,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 color: #757575;
 text-decoration: none;
+padding: 10px;
 }
 
 body { font-family: "Roboto", "Raleway", sans-serif;
