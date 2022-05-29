@@ -87,13 +87,14 @@ color: #212121;}
         font-weight: 700;
         line-height: 1.87;}
         .main-section {
-            display: block;
+            display: flex;
             width: 1200px;
             height: 600px;
             left: 0px;
             top: 80px;
             background: #2F303A;
-            justify-content: center;}
+            justify-content: center;
+        }
         .main-section > h2 {
             font-family: 'Roboto';
             font-style: normal;
@@ -112,7 +113,7 @@ color: #212121;}
                     }
     
         .button-index {
-            display: flex;
+            display: block;
             align-items: center;
             text-align: center;
             letter-spacing: 0.06em;
@@ -130,6 +131,7 @@ border-radius: 0px;
             line-height: 16px;
             letter-spacing: 0.03em;
             list-style: none;
+            display: flex;
         }
         .list  h2 {
             text-decoration: none;
@@ -143,13 +145,14 @@ border-radius: 0px;
             font-size: 16px;
             line-height: 19px;
             /* identical to box height */
-            text-align: left;
+            text-align: center;
             letter-spacing: 0.03em;
             color: #212121;
         }
         .list p {
             text-decoration: none;
             color: #757575;
+            text-align: center;
         }
         .list-item {
             text-decoration: none;
@@ -161,6 +164,11 @@ border-radius: 0px;
             /* or 171% */
             letter-spacing: 0.03em;
             color: #757575;
+            background: #FFFFFF;
+/* material shadow v1 */
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
+            margin: 15px;
         }
 .figures {
 list-style: none;
