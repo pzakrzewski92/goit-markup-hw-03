@@ -114,7 +114,8 @@ color: #212121;}
                     }
     
         .button-index {
-width: 200px;
+            position:unset;
+            width: 200px;
 height: 50px;
 left: 700px;
 top: 430px;
@@ -129,7 +130,7 @@ line-height: 30px;
 /* identical to box height, or 188% */
 display: flex;
 justify-content: center;
-text-align: center;
+align-items: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
         }
@@ -208,7 +209,9 @@ color: #212121;
             margin-left: 10px;
             margin-top: 10px;
         }
-       
+        .team {
+            background: #F5F4FA;
+        }
 .figures {
 list-style: none;
 display: flex;
