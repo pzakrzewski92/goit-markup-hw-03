@@ -159,9 +159,12 @@ color: #212121;
             flex-wrap: wrap;
             margin-left: -10px;
             margin-top: -10px;
-            padding: 0;
+            padding: 30px;
             list-style: none;
             
+        }
+        .list > image {
+            margin: 30px;
         }
         .list h2 {
             font-family: 'Roboto';
@@ -208,9 +211,24 @@ color: #212121;
             border-radius: 0px 0px 4px 4px;
             margin-left: 10px;
             margin-top: 10px;
+            
+        }
+        .list-item > h2, p {
+            padding: 10px;
+        }
+        .section {
+            padding-bottom: 94px;
+        }
+        .section > img {
+            padding: 20px;
         }
         .team {
+            width: 1200px;
+            height: 648px;
+            left: 0px;
+            top: 1449px;
             background: #F5F4FA;
+            padding-top: 94px;
         }
 .figures {
 list-style: none;
