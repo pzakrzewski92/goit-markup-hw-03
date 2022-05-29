@@ -163,8 +163,8 @@ color: #212121;
             list-style: none;
             
         }
-        .list > image {
-            margin: 30px;
+        .list > img {
+            padding: 30px;
         }
         .list h2 {
             font-family: 'Roboto';
@@ -213,8 +213,18 @@ color: #212121;
             margin-top: 10px;
             
         }
-        .list-item > h2, p {
+        .list-item1 > p {
             padding: 10px;
+            max-width: 270px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+            letter-spacing: 0.03em;
+            color: #757575;
+            text-align: center;
         }
         .section {
             padding-bottom: 94px;
