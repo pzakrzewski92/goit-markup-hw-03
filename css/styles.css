@@ -8,7 +8,7 @@
 }
 .container {
 width: 1200px;
-
+margin: 0 auto;
 }
 .header-menu {
     background: #FFFFFF;
@@ -109,7 +109,7 @@ color: #212121;}
         line-height: 1.87;}
         .main-section {
             display: flex;
-            width: 1600px;
+            max-width: 1600px;
             height: 600px;
             left: 0px;
             top: 80px;
@@ -165,6 +165,35 @@ letter-spacing: 0.03em;
 
 color: #212121;
         }
+
+        .testimonials-list {
+            display: flex;
+            list-style-type: none;
+            flex-wrap: wrap;
+            margin-left: -30px;
+            margin-bottom: -30px;
+            padding-bottom: 94px;
+        }
+        .testimonials-list-item {
+            margin-left: 30px;
+            margin-bottom: 30px;
+            max-width: 270px;
+        }
+        .testimonials-list-item > h2 {
+            font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.14em;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+        }
+.testimonials-list-item > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
         .list {
             font-family: 'Roboto';
             font-style: normal;
@@ -253,14 +282,14 @@ color: #212121;
             padding: 20px;
         }
         .team {
-            width: 1600px;
+            max-width: 1600px;
             height: 708px;
             left: 0px;
             top: 1449px;
             background: #F5F4FA;
             padding-top: 94px;
         }
-.figures {
+.portfolio-list {
 list-style: none;
 display: flex;
 justify-content: ;
@@ -268,7 +297,7 @@ flex-wrap: wrap;
 margin-left: -10px;
 margin-top: -10px;
 }
-.figure { list-style: none;
+.portfolio-list-item { 
 width: 370px;
 min-height: 404px;
 left: 215px;
@@ -279,7 +308,7 @@ margin-left: 10px;
 margin-top: 10px;
 /*flex-basis: calc(100% / 3 - 10px);*/
 }
-.figure > h3 {
+.portfolio-list-item > h3 {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -290,7 +319,7 @@ letter-spacing: 0.06em;
 color: #212121;
 margin-left: 10px;
 }
-.figure > p{
+.portfolio-list-item > p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
