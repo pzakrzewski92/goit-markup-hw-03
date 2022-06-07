@@ -74,7 +74,14 @@ padding: 10px;
 }
 
 body { font-family: "Roboto", "Raleway", sans-serif;
-color: #212121;}
+color: #212121;
+}
+.section {
+    padding-bottom: 94px;
+}
+.section > img {
+    padding: 20px;
+}
 .buttons {
     margin-bottom: 40px;
     display: flex;
@@ -189,6 +196,10 @@ color: #212121;}
     margin-bottom: 30px;
     margin-left: 30px;
 }
+.services-list-item > img {
+    min-width: 370px;
+    display: block;
+}
         .list {
             font-family: 'Roboto';
             font-style: normal;
@@ -207,9 +218,7 @@ color: #212121;}
             list-style: none;
             
         }
-        .list > img {
-            padding: 30px;
-        }
+        
         .list h2 {
             font-family: 'Roboto';
             font-style: normal;
@@ -270,12 +279,7 @@ color: #212121;}
             color: #757575;
             text-align: center;
         }
-        .section {
-            padding-bottom: 94px;
-        }
-        .section > img {
-            padding: 20px;
-        }
+        
         .team {
             max-width: 1600px;
             height: 708px;
