@@ -340,23 +340,23 @@ color: #212121;
 
 
 .portfolio-list {
-list-style: none;
+list-style-type: none;
 display: flex;
-justify-content: ;
 flex-wrap: wrap;
-margin-left: -10px;
-margin-top: -10px;
+margin-left: -30px;
+margin-bottom: -30px;
 }
 .portfolio-list-item { 
-width: 370px;
-min-height: 404px;
-left: 215px;
-top: 262px;
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-margin-left: 10px;
-margin-top: 10px;
-/*flex-basis: calc(100% / 3 - 10px);*/
+    display: flex;
+    background-color: #fff;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    max-width: 370px;
+}
+.portfolio-list-item figcaption {
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
 }
 .portfolio-list-item > h3 {
     font-family: 'Roboto';
