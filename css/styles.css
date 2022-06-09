@@ -303,13 +303,7 @@ color: #212121;
             border-radius: 0px 0px 4px 4px;
             margin-top: 10px;
         }
-        .team-list-item figure {
-            display: block;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 40px;
-            margin-inline-end: 40px;
-        }
+
 
         .team-list-item figcaption {
             display: flex;
@@ -354,32 +348,36 @@ margin-bottom: -30px;
     margin-bottom: 30px;
     max-width: 370px;
 }
+.portfolio-list-item figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px
+}
+.portfolio-list-item figure:hover {
+    /* material shadow v1 */
+cursor: pointer;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
 .portfolio-list-item figcaption {
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
 }
-.portfolio-list-item > h3 {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-letter-spacing: 0.06em;
-color: #212121;
-margin-left: 10px;
+.portfolio-list-item h3 {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    padding: 20px 24px 4px 24px;
+    color: var(--link-color);
 }
-.portfolio-list-item > p{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-    letter-spacing: 0.03em;
+.portfolio-list-item p{
+    line-height: 1.875em;
     color: #757575;
-    margin-left: 10px;}
+    padding: 0px 24px 20px 24px;
+}
 .footer {
     font-style: normal;
     background: #2F303A;
