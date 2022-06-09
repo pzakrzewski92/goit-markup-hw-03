@@ -297,7 +297,6 @@ color: #212121;
             /* or 171% */
             letter-spacing: 0.03em;
             color: #757575;
-            background: #FFFFFF;
 /* material shadow v1 */
             max-width: 270px;
             box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -390,17 +389,16 @@ margin-left: 10px;
 background: #2F303A;
     }
 .footer-logo {
+    display: inline-block;
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19em;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin-bottom: 20px;
     color: #fff;
-    text-decoration: none;
-    display: block;
-    padding-left: 40px;
-    font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
-letter-spacing: 0.03em;
 
 }
 .footer-logo span {
@@ -410,15 +408,14 @@ color: #2196F3;}
 }
 
 .footer-text{
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    font-weight: 400;
     list-style-type: none;
+    color: #fff;
+    margin-bottom: 9px;
 }
 .footer-link {
     font-family: 'Roboto';
