@@ -9,6 +9,7 @@
 .container {
 width: 1200px;
 margin: 0 auto;
+padding: 0 15px;
 }
 .header-menu {
     background: #FFFFFF;
@@ -200,7 +201,7 @@ color: #212121;
     min-width: 370px;
     display: block;
 }
-        .list {
+       /* .list {
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 700;
@@ -237,7 +238,7 @@ color: #212121;
             font-weight: 500;
             font-size: 16px;
             line-height: 19px;
-            /* identical to box height */
+            /* identical to box height 
             text-align: center;
             letter-spacing: 0.03em;
             color: #212121;
@@ -247,30 +248,15 @@ color: #212121;
             color: #757575;
             text-align: center;
         }
-        
-            
-        
-        .list-item1 > p {
-            padding: 10px;
-            max-width: 270px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 24px;
-            /* or 171% */
-            letter-spacing: 0.03em;
-            color: #757575;
-            text-align: center;
-        }
-        
+        */
         .team {
             max-width: 1600px;
             height: 708px;
             left: 0px;
             top: 1449px;
             background: #F5F4FA;
-            padding-top: 94px;
+            padding: 94px;
+            margin: 0px;
         }
         .team-header {
     font-weight: 700;
@@ -290,6 +276,7 @@ color: #212121;
         .team-list-item {
             display: flex;
             flex-direction: column;
+            justify-content: center;
             align-content: center;
             background-color: #fff;
             box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
@@ -313,6 +300,13 @@ color: #212121;
             margin-left: 10px;
             margin-top: 10px;
         }
+        .team-list-item figure {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 40px;
+            margin-inline-end: 40px;}
+
         .team-list-item figcaption {
             display: flex;
             flex-direction: column;
@@ -324,8 +318,11 @@ color: #212121;
     max-height: 260px;
     display: block;
     margin: 0px;
-    padding: 0px;
-        }
+    padding: 0px;}
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+        
         .team-list-item h3 {
             display: block;
     font-size: 1.17em;
@@ -336,6 +333,8 @@ color: #212121;
     font-weight: bold;
             margin-bottom: 10px;
         }
+
+
 .portfolio-list {
 list-style: none;
 display: flex;
@@ -437,7 +436,7 @@ color: #2196F3;}
     color: rgba(255, 255, 255, 0.6); 
     text-decoration-line: underline;
     list-style-type: none; }
-.footer-link: hover,
-.footer-link: focus {
+.footer-link:hover,
+.footer-link:focus {
 color: rgba(255, 255, 255, 1);
 }
