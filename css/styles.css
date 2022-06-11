@@ -14,21 +14,26 @@
     font-style: normal;
     color: #212121;}
 .container {
-width: 1200px;
-margin: 0 auto;
-padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
 }
-
+.header {
+    border-bottom: 1px solid #ececec;
+    background-color: #fff;
+    padding: 25px 0;
+}
 .header-menu {
     background: #FFFFFF;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 80px;
 }
 .header-menu-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
 }
@@ -69,6 +74,12 @@ color:#212121;
 .item {
     justify-content: center;
     padding: 20px;
+}
+.menu-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
 }
 .menu-contact {
     font-family: 'Roboto';
